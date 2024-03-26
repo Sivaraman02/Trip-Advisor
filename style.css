@@ -1,0 +1,453 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+   *{
+    padding:0px;
+    margin:0px;
+    }
+   
+    
+.navbar,.shorescard,.tripcard
+{
+   margin-left: 40px;
+  margin-right: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    
+}
+.navbar-2{
+    display: flex;
+    gap: 15px;
+}
+.navbar-3{
+  display: flex;
+    gap: 10px;
+    align-items: center;
+   
+
+}
+.navbar-3__button{
+  border-radius: 50px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+  
+
+/* categories */
+
+.categories-1{
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  padding-top: 30px;
+}
+.categories-2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+  
+}
+.categories-3{
+  border: solid black 1px;
+  padding:10px;
+ border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ padding: 20px;
+ width: fit-content;
+ text-align: center;
+ transform: translateX(360px);
+ 
+ 
+ 
+ 
+ 
+ 
+}
+
+.categories-3 input{
+ width: 500px;
+ border: none;
+ outline: none;
+
+  
+ 
+}
+.categories-3__button{
+  background-color: green;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/* imagemain */
+.mainimage{
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  border: solid 1px black; 
+
+  
+  position: relative;
+  margin-top: 60px;
+  padding: 20px;
+}
+.mainimage img{
+  width: 100%;
+  position: relative;
+  
+}
+/* mainimage desc */
+.mainimage__01__desc{
+  position: absolute;
+  left: 120px;
+  top: 120px;
+ 
+  
+  
+}
+.mainimage__01__descbutton{
+  background-color: blueviolet;
+  padding:15px;
+  color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+  
+
+
+}
+.mainimage__01__desc-0{
+  font-size: 13px;
+}
+
+/* shorecard */
+
+.shorescard__title{
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.shorescard__images{
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+  
+
+}
+.shorescard__images img{
+  width: 300px;
+  height: 250px;
+
+}
+.shorescard__images01,.shorescard__images02,.shorescard__images03,.shorescard__images04{
+  position: relative; 
+
+}
+.shorescard__images01 h1,.shorescard__images02 h1,.shorescard__images03 h1,.shorescard__images04 h1{
+position: absolute;
+bottom: 30px;
+color: white;
+}
+
+
+/* tourcard */
+.tourcard__title{
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.tourcard__images{
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+  
+ 
+  
+
+}
+.tourcard__images img{
+  width: 300px;
+  height: 250px;
+
+}
+.tourcard h4{
+  width: 300px
+}
+.tourcard__images01,.tourcard__images02,.tourcard__images03,.tourcard__images04{
+  position: relative;
+}
+.tourcard__images01 i,.tourcard__images02 i,.tourcard__images03 i,.tourcard__images04 i{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  
+ 
+}
+/* parkcard */
+.parkcard__title{
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.parkcard__images{
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+  
+}
+.parkcard__images img{
+  width: 300px;
+  height: 250px;
+
+}
+.parkcard h4{
+  width: 300px
+}
+.parkcard__images01,.parkcard__images02,.parkcard__images03,.parkcard__images04{
+  position: relative;
+}
+.parkcard__images01 i,.parkcard__images02 i,.parkcard__images03 i,.parkcard__images04 i{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* explore card */
+.explorecard{
+  
+  margin-top: 30px;
+  background-color:burlywood;
+  padding: 10px;
+
+}
+.explorecard h3{
+  width: 350px;
+}
+
+.explorecard__images img{
+  width: 400px;
+  height: 200px;
+  margin-top: 20px;
+  
+}
+.explorecard__images{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
+ 
+}
+.explorecard__images01,.explorecard__images02,.explorecard__images03{
+  position: relative;
+}
+.explorecard__images01 i,.explorecard__images02 i,.explorecard__images03 i{
+  position:absolute;
+  top: 25px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+
+}
+/* topdestination */
+.tdcard__title{
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+.tdcard__images{
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+  
+
+}
+.tdcard__images img{
+  width: 300px;
+  height: 250px;
+
+}
+.tdcard__images01,.tdcard__images02,.tdcard__images03,.tdcard__images04{
+  position: relative; 
+
+}
+.tdcard__images01 h1,.tdcard__images02 h1,.tdcard__images03 h1,.tdcard__images04 h1{
+position: absolute;
+bottom: 30px;
+color: white;
+}
+/* videocard */
+.vdo video{
+  margin-top: 60px;
+
+
+}
+
+
+/* final image */
+
+.finalimage{
+  margin-top: 40px;
+  display: flex;
+  border: solid black 1px;
+justify-content: center;
+flex-direction: row;
+background-color: burlywood;
+height: 550px;
+}
+.finalimage-2 img{
+  width: 750px;
+  height: 550px;
+}
+.finalimage-1{
+  margin-top: 40px;
+  padding: 40px;
+  height: 400px;
+  margin-left: 20px;
+  
+}
+.finalimage-1 h1{
+  width: 100%;
+  font-size: 50px;
+  font-weight: 800;
+  
+}
+.finalimage button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.finalimage h3{
+  width: 90%;
+
+}
+/* footer */
+.footer{
+  background-color: burlywood;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-section1{
+  display: flex;
+  margin-top: 40px;
+  gap: 150px;
+  padding: 20px;
+  
+}
+.footer1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+.footer-section2{
+  margin-bottom: 60px;
+  padding: 20px;
+  margin-right: 30px;
+}
+.f-copy{
+  margin-left: 20px;
+}
+.fconnect{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:20px;
+  padding-bottom: 20px;
+}
+.fconnect2{
+  margin-right: 20px;
+}
+.fconnect2 button{
+  width: 150px;
+}
+.fconnect1{
+  display: flex;
+  gap: 10px;
+  width: 70%;
+  text-decoration-line: underline;
+}
+.sv{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.sv1{
+  width: 60%;
+}
+.sv2{
+ display: flex;
+ gap: 10px;
+ margin-right: 40px;
+}
+
+@media screen and (max-width:1000px) {
+  .navbar{
+    .navbar-3{
+      display: none;
+    }
+  }
+  .categories-3{
+    transform: translateX(50px);
+    width: 70%;
+  }
+  .mainimage__01__desc{
+    display: none;
+  }
+  .vdo video{
+    width: 70%;
+    height: 50%;
+  }
+  .fconnect2{
+    display: none;
+  }
+}
